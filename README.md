@@ -49,14 +49,16 @@ You'll need the following files for the Gallery integration:
 - SendBird.min.js
 - liveChat.SendBird.js
 
-*Note:* 
-- You must `build` or `npm start`.
+**Note:** 
+- You must `npm build` or `npm start`.
 - You can use different SDK versions by replacing `SendBird.min.js`.
 
 ### Gallery Catalogue Experience example
 
+Add the live chat to a Gallery **catalogue** experience.
+
 #### Custom Header HTML
-Add the following to your custom header section:
+Gallery custom header section:
 
 ```
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
